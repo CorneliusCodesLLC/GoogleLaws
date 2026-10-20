@@ -1,0 +1,220 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<!-- Jess is cool-->
+<div id="gl-wrapper">
+  <div class="gl-main">
+    <!-- Multi-colored Logo -->
+    <h1 class="gl-logo" aria-label="Google Laws">
+      <span class="c-blue">G</span><span class="c-red">o</span><span class="c-yellow">o</span><span class="c-blue">g</span><span class="c-green">l</span><span class="c-red">e</span>
+      <span class="gl-sub">Laws</span>
+    </h1>
+
+    <!-- Search Box -->
+    <div class="gl-search-container">
+      <div class="gl-search-box" id="gl-search-box">
+        <svg class="gl-search-icon" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+        </svg>
+        <textarea 
+          id="gl-input" 
+          rows="1" 
+          placeholder="Search Google Laws..." 
+          aria-label="Search"
+        ></textarea>
+      </div>
+
+      <!-- Buttons -->
+      <div class="gl-buttons">
+        <button type="button" class="gl-btn" id="gl-search-btn">Google Laws Search</button>
+        <button type="button" class="gl-btn" id="gl-lucky-btn">I'm Feeling Legislative</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  #gl-wrapper {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 75vh;
+    padding: 20px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+  }
+
+  #gl-wrapper * {
+    box-sizing: border-box;
+  }
+
+  .gl-main {
+    width: 100%;
+    max-width: 584px;
+    text-align: center;
+  }
+
+  .gl-logo {
+    font-size: 4.5rem;
+    font-weight: 500;
+    letter-spacing: -2px;
+    margin: 0 0 28px 0;
+    line-height: 1.1;
+    user-select: none;
+  }
+
+  .gl-logo .c-blue   { color: #4285F4; }
+  .gl-logo .c-red    { color: #EA4335; }
+  .gl-logo .c-yellow { color: #FBBC05; }
+  .gl-logo .c-green  { color: #34A853; }
+  
+  /* Transitional Serif styling for "Laws" */
+  .gl-logo .gl-sub {
+    font-family: 'Libre Baskerville', Baskerville, 'Baskerville Old Face', 'Hoefler Text', Georgia, 'Times New Roman', serif;
+    color: #5f6368;
+    font-weight: 400;
+    font-size: 2.5rem;
+    letter-spacing: 0px;
+    margin-left: 6px;
+  }
+
+  .gl-search-box {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    min-height: 46px;
+    padding: 10px 16px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    background: #fff;
+    transition: box-shadow 0.2s ease, border-color 0.2s ease;
+  }
+
+  .gl-search-box:hover,
+  .gl-search-box:focus-within {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+  }
+
+  .gl-search-icon {
+    width: 20px;
+    height: 20px;
+    fill: #9aa0a6;
+    margin-right: 12px;
+    margin-top: 2px;
+    flex-shrink: 0;
+  }
+
+  #gl-input {
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #202124;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  .gl-buttons {
+    margin-top: 28px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  .gl-btn {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 0 16px;
+    height: 36px;
+    line-height: 27px;
+    cursor: pointer;
+    user-select: none;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+  }
+
+  .gl-btn:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+  }
+
+  .gl-btn:disabled {
+    opacity: 0.65;
+    cursor: default;
+  }
+
+  @media (max-width: 480px) {
+    .gl-logo {
+      font-size: 3rem;
+    }
+    .gl-logo .gl-sub {
+      font-size: 1.75rem;
+    }
+  }
+</style>
+
+<script>
+  (function() {
+    const targetText = "I'm just a site, Yes a plain old site, And I'm sitting here on a Warren Dune. Well it's a long, long journey. To the swamp that used to be pretty. It's a long, long wait. While I'm sitting here in the White City. But I know I'll be a patent someday. At least I hope and pray that that patent will see some light. But today I am still just a site.";
+    const redirectUrl = "https://govbot-know-your-ballot.vercel.app/michigan";
+    const typingSpeedMs = 35.69; // Speed per character in milliseconds
+
+    const inputEl = document.getElementById("gl-input");
+    const searchBtn = document.getElementById("gl-search-btn");
+    const luckyBtn = document.getElementById("gl-lucky-btn");
+    let isTyping = false;
+
+    function autoResize() {
+      inputEl.style.height = "auto";
+      inputEl.style.height = inputEl.scrollHeight + "px";
+    }
+
+    function startTypingAndRedirect() {
+      if (isTyping) return;
+      isTyping = true;
+      searchBtn.disabled = true;
+      luckyBtn.disabled = true;
+      inputEl.readOnly = true;
+      inputEl.value = "";
+      autoResize();
+
+      let index = 0;
+      const interval = setInterval(function() {
+        if (index < targetText.length) {
+          inputEl.value += targetText.charAt(index);
+          index++;
+          autoResize();
+        } else {
+          clearInterval(interval);
+          setTimeout(function() {
+            window.location.href = redirectUrl;
+          }, 900);
+        }
+      }, typingSpeedMs);
+    }
+
+    searchBtn.addEventListener("click", startTypingAndRedirect);
+    luckyBtn.addEventListener("click", startTypingAndRedirect);
+    inputEl.addEventListener("input", autoResize);
+    inputEl.addEventListener("keydown", function(e) {
+      if (e.key === "Enter") {
+        e.preventDefault();
+        startTypingAndRedirect();
+      }
+    });
+  })();
+</script>
