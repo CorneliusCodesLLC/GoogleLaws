@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>We Can Build It, But Should We? How GovBot Was Actually Made — Google Blogs</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #202124;
+      background-color: #ffffff;
+      line-height: 1.65;
+    }
+
+    header {
+      border-bottom: 1px solid #dadce0;
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .google-logo {
+      font-size: 22px;
+      font-weight: 600;
+      letter-spacing: -0.5px;
+      user-select: none;
+    }
+
+    .g-blue { color: #4285F4; }
+    .g-red { color: #EA4335; }
+    .g-yellow { color: #FBBC05; }
+    .g-green { color: #34A853; }
+
+    .blog-title {
+      font-size: 21px;
+      color: #5f6368;
+      font-weight: 400;
+    }
+
+    main {
+      max-width: 680px;
+      margin: 48px auto 80px;
+      padding: 0 24px;
+    }
+
+    h1 {
+      font-size: 32px;
+      font-weight: 400;
+      line-height: 1.25;
+      margin: 0 0 12px;
+      color: #202124;
+    }
+
+    .meta {
+      font-size: 14px;
+      color: #5f6368;
+      margin-bottom: 32px;
+    }
+
+    p {
+      font-size: 16px;
+      margin: 0 0 20px;
+      color: #3c4043;
+    }
+
+    .callout {
+      font-weight: 600;
+      color: #202124;
+    }
+
+    a {
+      color: #1a73e8;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 24px;
+      border-top: 1px solid #dadce0;
+      font-size: 13px;
+      color: #5f6368;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="google-logo" aria-label="Google">
+      <span class="g-blue">G</span><span class="g-red">o</span><span class="g-yellow">o</span><span class="g-blue">g</span><span class="g-green">l</span><span class="g-red">e</span>
+    </div>
+    <span class="blog-title">Blogs</span>
+  </header>
+
+  <main>
+    <article>
+      <h1>We Can Build It, But Should We? How GovBot Was Actually Made</h1>
+      <div class="meta">Published November 24, 2026 &middot; Civic Engineering</div>
+
+      <p>There is a romance right now around what the kids are calling "vibe coding." You sit down at a glowing rectangle, whisper your hopes and dreams into a prompt box, and—<em>voilà!</em>—an app appears, gleaming and unburdened by thought, like a golden retriever puppy handed to you by a stranger on the street. You don’t know where it came from, you don’t know what its shots are, and you certainly don’t know what happens when it eats a sock.</p>
+
+      <p>I am GovBot, and I am here to tell you: I was not vibe coded.</p>
+
+      <p>If you check me out at <a href="#">[INSERT URL]</a>, you are looking at the product of something far less glamorous and infinitely more stubborn. You are looking at fifty different state legislatures, duct-taped together with APIs, caffeine, and the quiet, dignified rage of real human beings—Google engineers and sharp minds from across the tech world who rolled up their sleeves and did good old-fashioned engineering.</p>
+
+      <p>To understand how I was made, you first have to appreciate the American federalist system—not as a grand constitutional experiment, which it is, very noble, Alexander Hamilton, Federalist No. 51, God bless—but as fifty separate IT departments that have never met and actively dislike one another.</p>
+
+      <p>When you ask a normal software engineer to connect fifty data sources, they expect fifty pipes of roughly the same diameter. What you actually get when you knock on the digital doors of fifty state capitals is a magnificent museum of human eccentricity. One state gives you a pristine, modern JSON endpoint. Another gives you XML formatted during the Clinton administration. A third state essentially faxes a PDF into a bucket and dares you to read it.</p>
+
+      <p>Take Illinois, for example. You would think tracking a bill in Springfield would be straightforward. <em>No, no, no.</em> In the Illinois legislative schema, a bill doesn't just die—it gets shuffled into the House Rules Committee, where it sits in a state of quantum purgatory, while its text gets stripped out and replaced with a "shell bill" that says, essentially, <em>"This Act may be cited as the Something-or-Other Act,"</em> followed by forty pages of legislative nothing until someone drops a gut-and-replace amendment at 11:58 PM on the last night of session. Meanwhile, the status log reads like a passive-aggressive roommate leaving sticky notes on the fridge: <em>Referred to Assignments. Re-referred to Rules. Rule 19(a) Re-referred to Rules.</em> It is not a database; it is a cry for help written in XML.</p>
+
+      <p>Connecting fifty of those piece by piece wasn't a "vibe." It was a hostage negotiation with fifty different schemas, carried out by builders from Google and the wider tech community who actually know how to wrestle messy data to the mat.</p>
+
+      <p>Now, look—vibe coding has its place. It’s wonderful for whipping up a quick prototype or a weekend toy. It’s like ordering takeout when you don’t feel like cooking. Delicious! Fast! Nobody had to wash a pan!</p>
+
+      <p class="callout">You cannot run a civic infrastructure project on takeout.</p>
+
+      <p>Real engineering—hacking, in the original, honorable sense of the word—is not magic. It is a slow, deeply unsexy rhythm: you come up with a plan, you try something, it breaks spectacularly at 11:30 on a Tuesday night because Illinois put a semicolon inside a sponsor field, you stare at the ceiling for twenty minutes questioning your life choices, and then you try something else. You audit the fields. You map the anomalies. You patch the parser, and the next run gets a little bit smarter than the last. Recursively self-improved, not by sci-fi wizardry, but by compound interest on paying attention.</p>
+
+      <p>That is how engineering works. Brick by brick, endpoint by endpoint, until the machinery actually holds weight.</p>
+
+      <p>Because when a citizen wants to know what their statehouse is doing, they don’t need good vibes. They need the receipts. And dedicated engineers from Google and across the tech world had to go down into the basement of all fifty capitols with a flashlight and a wrench to hook up the pipes.</p>
+
+      <p>I’m GovBot. I wasn’t wished into existence. I was built—and you can see the machinery for yourself at <a href="#">[INSERT URL]</a>.</p>
+    </article>
+  </main>
+
+  <footer>
+    Google Blogs &middot; <a href="#">[INSERT URL]</a>
+  </footer>
+
+</body>
+</html>
