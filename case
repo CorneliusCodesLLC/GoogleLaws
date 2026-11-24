@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How to Look Up a Divorce Case in Cook County, IL</title>
+  <style>
+    :root {
+      --primary: #1b4965;
+      --accent: #2c7da0;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --text: #1e293b;
+      --muted: #475569;
+      --border: #e2e8f0;
+      --note-bg: #eff6ff;
+      --note-border: #3b82f6;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      margin: 0;
+      padding: 2rem 1rem;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      padding: 2.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+      border: 1px solid var(--border);
+    }
+
+    header {
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 1.25rem;
+      margin-bottom: 2rem;
+    }
+
+    h1 {
+      color: var(--primary);
+      font-size: 1.85rem;
+      margin: 0 0 0.5rem 0;
+    }
+
+    .subtitle {
+      color: var(--muted);
+      margin: 0;
+      font-size: 1.05rem;
+    }
+
+    .step-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .step-item {
+      position: relative;
+      padding-left: 3.25rem;
+      margin-bottom: 2rem;
+    }
+
+    .step-number {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 2.25rem;
+      height: 2.25rem;
+      background-color: var(--primary);
+      color: #ffffff;
+      font-weight: 700;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1rem;
+    }
+
+    h2 {
+      font-size: 1.25rem;
+      color: var(--primary);
+      margin: 0 0 0.5rem 0;
+    }
+
+    p {
+      margin: 0 0 0.75rem 0;
+    }
+
+    ul.sub-list {
+      margin: 0.5rem 0 0.75rem 1.25rem;
+      padding: 0;
+    }
+
+    ul.sub-list li {
+      margin-bottom: 0.4rem;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    code {
+      background-color: #f1f5f9;
+      padding: 0.15rem 0.4rem;
+      border-radius: 4px;
+      font-family: Consolas, Monaco, "Courier New", monospace;
+      font-size: 0.92em;
+    }
+
+    .callout {
+      background-color: var(--note-bg);
+      border-left: 4px solid var(--note-border);
+      padding: 1rem 1.25rem;
+      border-radius: 6px;
+      margin-top: 2rem;
+      font-size: 0.95rem;
+    }
+
+    .callout strong {
+      color: var(--primary);
+    }
+
+    footer {
+      margin-top: 2.5rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>How to Look Up a Divorce Case in Cook County, IL</h1>
+      <p class="subtitle">
+        A step-by-step guide to searching Dissolution of Marriage records through the Clerk of the Circuit Court of Cook County.
+      </p>
+    </header>
+
+    <ol class="step-list">
+      <li class="step-item">
+        <div class="step-number">1</div>
+        <h2>Gather Your Search Information</h2>
+        <p>Before starting your search, collect at least one of the following details:</p>
+        <ul class="sub-list">
+          <li><strong>Case Number:</strong> Cook County divorce case numbers typically include the 4-digit filing year, the letter <code>D</code> (for Domestic Relations), and the sequence number (e.g., <code>2024 D 012345</code>).</li>
+          <li><strong>Party Names:</strong> The full legal first and last name of either spouse (Petitioner or Respondent). Knowing the approximate year of filing helps narrow common names.</li>
+        </ul>
+      </li>
+
+      <li class="step-item">
+        <div class="step-number">2</div>
+        <h2>Go to the Official Cook County Clerk Website</h2>
+        <p>
+          Visit the Clerk of the Circuit Court of Cook County's online portal at
+          <a href="https://www.cookcountyclerkofcourt.org/online-case-information" target="_blank" rel="noopener noreferrer">
+            cookcountyclerkofcourt.org/online-case-information
+          </a>.
+        </p>
+        <p>
+          Follow the link to access the <strong>Online Case Information / Full Electronic Docket Search</strong> tool. (Note: Illinois-registered attorneys can also use the <em>CCCPortal</em> link on the Case Look Up page.)
+        </p>
+      </li>
+
+      <li class="step-item">
+        <div class="step-number">3</div>
+        <h2>Select the Domestic Relations Division</h2>
+        <p>
+          All divorce (Dissolution of Marriage), legal separation, and civil union dissolution cases in Cook County are handled by the <strong>Domestic Relations Division</strong>.
+        </p>
+        <p>
+          When prompted to choose a court division or search category, select <strong>Domestic Relations</strong> so your results are filtered to family and divorce filings.
+        </p>
+      </li>
+
+      <li class="step-item">
+        <div class="step-number">4</div>
+        <h2>Enter Your Search Criteria</h2>
+        <p>Choose your preferred lookup method on the search screen:</p>
+        <ul class="sub-list">
+          <li><strong>Search by Case Number:</strong> Enter the year, division code (<code>D</code>), and case number exactly as formatted by the prompt.</li>
+          <li><strong>Search by Name:</strong> Enter the party's <strong>Last Name</strong> and <strong>First Name</strong>. If results are too broad, filter by filing date range.</li>
+        </ul>
+        <p>Complete any required security verification (CAPTCHA) and submit your search.</p>
+      </li>
+
+      <li class="step-item">
+        <div class="step-number">5</div>
+        <h2>Review the Case Summary &amp; Docket Entries</h2>
+        <p>Click on the matching case number from the search results to view free public docket information, including:</p>
+        <ul class="sub-list">
+          <li>Filing date and current case status (active, disposed, or closed)</li>
+          <li>Assigned judge, courtroom, and courthouse location</li>
+          <li>Scheduled future court dates and past hearing history</li>
+          <li>A chronological list of motions, orders, and judgments entered</li>
+        </ul>
+      </li>
+
+      <li class="step-item">
+        <div class="step-number">6</div>
+        <h2>Request Official or Plain Document Copies (If Needed)</h2>
+        <p>
+          The free online lookup displays <strong>docket summaries only</strong>—full PDF images of petitions, marital settlement agreements, and divorce decrees are not downloadable through the public web search. To obtain actual copies:
+        </p>
+        <ul class="sub-list">
+          <li>
+            <strong>In Person:</strong> Visit the Domestic Relations Division Clerk's Office at the <strong>Richard J. Daley Center</strong> (50 W. Washington St., Room 802, Chicago, IL 60602) or the suburban district courthouse where the case was heard (Skokie, Rolling Meadows, Maywood, Bridgeview, or Markham). Bring a valid photo ID and the case number.
+          </li>
+          <li>
+            <strong>By Mail:</strong> Send a written request with both parties' names, case number (or approximate filing year), a self-addressed stamped envelope, and a check or money order for per-page/certification fees to the Clerk of the Circuit Court.
+          </li>
+        </ul>
+      </li>
+    </ol>
+
+    <div class="callout">
+      <strong>Helpful Tip:</strong> Sealed or impounded divorce files cannot be viewed by the general public without a court order. If you need assistance finding a case number or checking copy fees, call the Domestic Relations Division at <strong>(312) 603-6300</strong> or the Main Clerk's Call Center at <strong>(312) 603-5030</strong> (Monday–Friday, 8:30 a.m. – 4:30 p.m.).
+    </div>
+
+    <footer>
+      <p>Disclaimer: This guide is for informational purposes only and is not legal advice. Always verify current fees and courthouse hours directly with the Clerk of the Circuit Court of Cook County.</p>
+    </footer>
+  </main>
+</body>
+</html>
